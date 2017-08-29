@@ -1,0 +1,10 @@
+一、一切都是对象的理解
+	不是所有的都是对象，我们可以使用typeof输出集中类型标识，分为值类型和引用类型
+	其中值类型包括undefined，number，String，boolean,引用类型包括函数，数组，null，对象，new Number(10)等，
+	所有的引用类型都是对象。
+	
+	判断一个变量是不是对象十分简单，值类型的使用typeof ,引用类型的使用instanceOf
+	eg :   console.log( [1,'a',true] instanceof Object );//返回true
+	 JavaScript中对象里面的一切都是属性，只有属性，没有方法(因为方法也是一种属性，它的属性可以表示为键值对的形式)
+	 
+二、语言的弱类型与强类型  解释型与编译型
